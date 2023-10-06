@@ -1,0 +1,12 @@
+{
+  "name": "resonite-ocr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.2.0",
+    "@azure/ms-rest-azure-js": "^2.1.0",
+    "sharp": "^0.32.6",
+    "ws": "^8.14.2"
+  }
+}
