@@ -8,3 +8,9 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
+
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.80.0.0/16
