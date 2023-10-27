@@ -62,7 +62,7 @@ const ocr = async(client, fileId, options) => {
     if (_result.status === 'succeeded') break
   }
 
-  return recognizedText.join('')
+  return recognizedText.join('\n')
 }
 
 
